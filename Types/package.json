@@ -1,6 +1,6 @@
 {
-  "name": "@vincentleeseek/npm-package",
-  "version": "1.0.2",
+  "name": "@vincentleeseek/npm-package.Types",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/data.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "ci": "yarn install --frozen-lockfile",
     "lint": "eslint --ext js,ts ./src",
     "test": "yarn lint && jest",
-    "release": "yarn build && publish && cd Types && yarn release",
+    "release": "yarn build && publish",
     "publish": "semantic-release --dry-run false"
   },
   "publishConfig": {
