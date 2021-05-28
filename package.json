@@ -8,7 +8,7 @@
     "ci": "yarn install --frozen-lockfile",
     "lint": "eslint --ext js,ts ./src",
     "test": "yarn lint && jest",
-    "release": "yarn build && publish && cd Types && yarn release",
+    "release": "yarn build && yarn publish && cd Types && yarn release",
     "publish": "semantic-release --dry-run false"
   },
   "publishConfig": {
