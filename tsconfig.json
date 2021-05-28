@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "allowJs": true,
+    "declaration": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "baseUrl": "."
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*",
+    "**/__tests__"
+  ]
+}
